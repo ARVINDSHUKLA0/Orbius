@@ -38,7 +38,7 @@ const Navbar = () => {
               <div className='d-lg-none d-block'>
                 <div className='text-end pe-1 pt-2'>
                   <button onClick={Menuitemfunc} className='border-0 bg-white'>
-                    <i className="fa-solid fa-xmark text-end fs-3 pt-3"></i>
+                    <i className="fa-solid fa-xmark text-end fs-3 pt-3 pe-3"></i>
                   </button>
                 </div>
                 <div className='ps-3 py-3'>
