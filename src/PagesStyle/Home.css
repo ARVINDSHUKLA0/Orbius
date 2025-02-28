@@ -1,0 +1,167 @@
+.custom-table-list {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 12px 0px;
+}
+
+.cutom-img-width {
+    width: 232px;
+}
+
+.conatiner-imges {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    margin: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 490px;
+}
+
+.left-side-carcel {
+    display: flex;
+    align-items: center;
+    justify-content: end !important;
+    width: 300px;
+}
+
+
+.border-horizontal {
+    border: 0.50px solid black;
+    margin-top: 10px;
+    width: 170px;
+    margin-left: 30px;
+}
+
+.carcel-height-width {
+    background-color: #F2F2F2;
+    height: 110px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.award-hover-item:hover .carcel-height-width {
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    height: 110px;
+    width: 150px;
+    transition: .4s;
+}
+
+.award-hover-item:hover .border-horizontal {
+    width: 140px;
+    transition: .4s;
+}
+
+.imges-set-award {
+    position: absolute;
+    top: 50%;
+    left: 65px;
+    width: 350px;
+    height: 445px;
+    transform: translateX(10%) translateY(-45%) rotate(5deg);
+    transition: all .3s cubic-bezier(.215, .61, .355, 1);
+    opacity: 1;
+}
+
+
+.stroked-text {
+    color: white;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.914);
+}
+
+.item-text::before {
+    content: "•";
+    margin-right: 6px;
+
+}
+
+
+.blog-line {
+    width: 50px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.blog-dot {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.blog-btn-custom {
+    padding: 3px 25px;
+    border-radius: 19px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 525px) {
+    .custom-my {
+        margin-top: 50px;
+    }
+
+    .cutom-img-width {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .conatiner-imges {
+        width: 100%;
+    }
+
+    .border-horizontal {
+        border: none;
+    }
+
+    .award-hover-item:hover .carcel-height-width {
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        height: 97px;
+        width: 97px;
+        transition: .4s;
+    }
+
+    .left-side-carcel {
+        display: block;
+        align-items: center;
+        justify-content: end !important;
+        width: 10px;
+    }
+
+    .carcel-height-width {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+
+@media (min-width: 526px) and (max-width: 1023px) {
+    .award-hover-item:hover .carcel-height-width {
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        height: 97px;
+        width: 97px;
+        transition: .4s;
+    }
+
+    .carcel-height-width {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}

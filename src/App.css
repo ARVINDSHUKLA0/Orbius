@@ -1,0 +1,145 @@
+ * {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+ p{
+  line-height: 1.5;
+ }
+
+  .mt-50 {
+   margin-top: 50px;
+ }
+ 
+ .mb-50 {
+   margin-bottom: 50px;
+ }
+
+ .my-50 {
+   margin: 50px 0px 50px;
+ }
+
+ .mx-50 {
+   margin: 0px 50px 0px 50px;
+ }
+
+ .me-40 {
+   margin-right: 80px;
+ }
+
+ .mx-100 {
+   margin-left: 80px;
+   margin-right: 40px;
+ }
+
+ .mt-100 {
+   margin-top: 90px;
+ }
+ .pb-100{ 
+  padding-bottom: 100px;
+ }
+
+ .my-100 {
+   margin-top: 100px;
+   margin-bottom: 100px;
+ }
+ .py-50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+ .pt-100{
+  padding-top: 100px;
+ }
+ .py-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+ } 
+ .font-size-large{
+  font-size: 80px;
+ }
+
+ .list-style-none {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .text-decoration-none {
+   text-decoration: none;
+   color: black;
+   font-weight: 700;
+ }
+ .text-decoration-light-weight{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+ }
+ .custom-bottom-border {
+  border-bottom: 3px solid black;
+  z-index: 1000;
+}
+ 
+.li-icon-dots{
+  font-size: 6px;
+}
+.custom-font-size-mediam{
+  font-size: 70px;
+}
+.viedo-filter {
+  filter: opacity(0.8);
+}
+
+@media (min-width: 0px) and (max-width: 525px) {
+  .pt-100{
+    padding-top: 30px;
+   }
+  .mt-50 {
+    margin-top: 25px;
+  }
+  .font-size-large{
+    font-size: 45px;
+   }
+   .mb-50 {
+    margin-bottom: 25px;
+  }
+   .my-100 {
+   margin-top: 25px;
+   margin-bottom: 25px;
+ }
+ .custom-font-size-mediam{
+  font-size: 30px;
+ }
+ .py-100{
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+ .pb-100{
+  margin-bottom: 0px;
+ }
+ .pb-100{ 
+  padding-bottom: 0px;
+ }
+}
+
+ 
+
+
+
+/* this is blog Details start section */
+
+.blog-details-conatiner{
+  height: 350px;
+  width: 100%; 
+  background-color: white;
+  box-shadow: 1px 0px 15px 1px rgba(128, 128, 128, 0.356);
+ 
+}
+.blog-details-conatiner img{
+  height: 100%;
+  object-position: top, center;
+  object-fit: cover; 
+  filter: brightness(1.2);
+  
+
+}
+ /* this is blog Details end section */
