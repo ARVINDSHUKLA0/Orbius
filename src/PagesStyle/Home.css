@@ -106,6 +106,9 @@
 
 
 @media (min-width: 0px) and (max-width: 525px) {
+    .custom-margin-sm{
+        margin-top: 40px;
+    }
     .custom-my {
         margin-top: 50px;
     }

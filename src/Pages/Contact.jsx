@@ -22,21 +22,21 @@ const Contact = () => {
       </section>
       <section className='custom-margin'>
         <div className="row m-0">
-          <div className="col-lg-3 col-md-6 col-sm-12 col-12 offset-lg-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 col-12 offset-lg-3 p-0">
             <h2 className='custom-stroke-text'> houston</h2>
             <h4>north america</h4>
             <p className='m-0'>123 maple avenue, houston, tx 56034</p>
             <p className='m-0'>+1 (888) 765 4326 / 765 4327</p>
             <p>info@domainname.com</p>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div className="col-lg-3 col-md-6 col-sm-12 col-12 p-0">
             <h2 className='custom-stroke-text'> london</h2>
             <h4>united kingdom</h4>
             <p className='m-0'>123 maple avenue, houston, tx 56034</p>
             <p className='m-0'>+1 (888) 765 4326 / 765 4327</p>
             <p className='m-0'>info@domainname.com</p>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div className="col-lg-3 col-md-6 col-sm-12 col-12 p-0">
             <h2 className='custom-stroke-text'> sydney</h2>
             <h4>australia</h4>
             <p className='m-0'>123 maple avenue, houston, tx 56034</p>
@@ -74,7 +74,7 @@ const Contact = () => {
                 <input className=' custom-border-bootom py-2' type="text" placeholder='your name' required />
                 <input className='custom-border-bootom py-2' type="email" placeholder='email' required />
                 <textarea className='custom-border-bootom py-2' name="text" rows={6} placeholder='your message' required></textarea>
-                <div className='mt-3'>
+                <div className='mt-3 mb-4'>
                   <button className='custom-submit-btn py-1'>submit</button>
                 </div>
               </div>

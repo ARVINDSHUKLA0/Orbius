@@ -54,7 +54,7 @@ const ImgesScollSlider = () => {
  
         <motion.div className={`row scroll-row m-0  mt-md-3 mt-lg-3 ${xClass2}`}>
           {services.map((prose2, index) => (
-            <div key={index} onMouseEnter={() => ImgesNamefunc(prose2.heading)} className="col-lg-3 col-md-3 col-sm-6 col-12 p-0  mx-2 custom-margi">
+            <div key={index} onMouseEnter={() => ImgesNamefunc(prose2.heading)} className="col-lg-3 col-md-3 col-sm-6 col-12 p-0 mx-2 custom-margi">
               <img className="img-fluid " src={prose2.img1} alt="" />
             </div>
           ))}

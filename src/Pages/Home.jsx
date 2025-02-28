@@ -111,13 +111,13 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className='custom-margin-sm'>
         <div className="container-fluid">
           <div className="row m-0">
             <div className="col-lg-6 d-lg-block d-none col-md-12 col-sm-12 col-12 ps-4 position-relative">
               <img className='imges-set-award' src={imegshover} alt="" />
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12 p-0">
               {
                 MainArr.map((Awardsitem, index) => (
                   <div style={{ cursor: 'pointer' }} key={index} onMouseEnter={() => Imgesfunc(Awardsitem.image)} className='d-flex award-hover-item align-items-center justify-content-between'>

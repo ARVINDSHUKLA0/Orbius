@@ -10,12 +10,12 @@ const Footer = () => {
                 <div className='py-100'>
                     <section className='container-fluid'>
                         <div className="row m-0">
-                            <div className="col-lg-5 col-sm-12 col-12">
+                            <div className="col-lg-5 col-sm-12 col-12 p-0">
                                 <img src={Logo} alt="" />
                                 <p className='my-2'>© 2024 Softwebmedia Inc.</p>
                                 <p className='py-lg-3 fw-bold'>lorem ipsum dolor sit amet consectetur aiscing elitum dolor id quamtis ac varius turpis dignisim usce ullacorper ligula vel odio fermentum nec bibendum</p>
                             </div>
-                            <div className="col-lg-2 col-sm-12 col-12  offset-lg-1">
+                            <div className="col-lg-2 col-sm-12 col-12 p-0  offset-lg-1">
                                 <span className='text-decoration-light-weight'>
                                     <ul className='m-0 p-0'>
                                         <li className='list-style-none text-capitalize'>
@@ -31,7 +31,7 @@ const Footer = () => {
                                     </ul>
                                 </span>
                             </div>
-                            <div className="col-lg-2 col-sm-12 col-12">
+                            <div className="col-lg-2 col-sm-12 col-12 p-0">
                                 <span className='text-decoration-light-weight'>
                                     <ul className='m-0 p-0'>
                                         <li className='list-style-none text-capitalize'>
@@ -47,7 +47,7 @@ const Footer = () => {
                                     </ul>
                                 </span>
                             </div>
-                            <div className="col-lg-2 col-sm-12 col-12">
+                            <div className="col-lg-2 col-sm-12 col-12 p-0">
                                 <span className='text-decoration-light-weight'>
                                     <ul className='m-0 p-0'>
                                         <li className='list-style-none text-capitalize'>
@@ -67,7 +67,7 @@ const Footer = () => {
                         </div>
                     </section>
                 </div>
-                <div className='d-block py-lg-5 custom-border-top py-3 d-md-flex container-fluid justify-content-between align-items-center'>
+                <div className='d-block py-lg-5 custom-border-top p-0 ps-2 py-3 d-md-flex container-fluid justify-content-between align-items-center'>
                     <div>
                         <p className='m-0'>call our office</p>
                         <h5 className='fw-bold'>+1 888 456 7890</h5>

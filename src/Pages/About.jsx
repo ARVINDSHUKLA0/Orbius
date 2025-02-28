@@ -121,15 +121,15 @@ const About = () => {
             </section>
             <section>
                 <div className="row m-0">
-                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-12 p-0">
                         <div className="row m-0">
-                            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div className="col-lg-6 col-md-6 col-sm-12 col-12 p-0 ps-lg-3">
                                 <div className='custom-width'>
-                                    <h2 className='d-flex align-items-center'>
+                                    <h2 className='d-flex align-items-center ps-3'>
                                         <i className="fa fa-circle li-icon-dots pe-2"></i>
                                         designing
                                     </h2>
-                                    <p>Fusce accumsan tincidunt erat et convallis risus ullamcorper euoled vehicula massa a massa cursus bendum leovel usce.</p>
+                                    <p className='ps-3'>Fusce accumsan tincidunt erat et convallis risus ullamcorper euoled vehicula massa a massa cursus bendum leovel usce.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -161,7 +161,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-12 p-0">
                         <div className="row m-0">
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className='custom-width'>
