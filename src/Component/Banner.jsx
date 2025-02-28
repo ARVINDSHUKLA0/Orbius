@@ -4,8 +4,8 @@
   import 'swiper/css/pagination';
   import { Pagination, Autoplay } from 'swiper/modules';
 
-  import BannerOne from '/assets/img/Banner-1.jpg';
-  import BannerTwo from '/assets/img/Banner-2.jpg';
+  import BannerOne from '/assets/img/Banner-1.jpeg';
+  import BannerTwo from '/assets/img/Banner-2.jpeg';
   import BannerThree from '/assets/img/Banner-3.jpg';
   import BannerFour from '/assets/img/Banner-4.jpg';
   import BannerFive from '/assets/img/Banner-5.jpg';
@@ -14,8 +14,8 @@
   import '../ComponentStyle/Banner.css';
   
   const slidesData = [
-    { Bannerimg: BannerOne, name: 'creating next level' },
-    { Bannerimg: BannerTwo, name: 'digital products' },
+    { Bannerimg: BannerOne, name: 'The art of brand ' },
+    { Bannerimg: BannerTwo, name: 'communication' },
     { Bannerimg: BannerThree, name: 'creating impactful' },
     { Bannerimg: BannerFour, name: 'web solutions' },
     { Bannerimg: BannerFive, name: 'creating dynamic' },

@@ -14,32 +14,32 @@ export default function ServiceScrollSlider() {
 
     const dataArr = [
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Identity",
+            description: "I've developed complete brand identities for startups and established businesses, including logo design, brand guidelines, and visual language that effectively communicates their values and mission."
         },
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Website",
+            description: "I've created responsive and engaging websites that enhance user experience, drive conversions, and establish a strong online presence for clients in various industries."
         },
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Marketing",
+            description: "I've designed impactful print and digital marketing materials, including brochures, flyers, social media graphics, and digital ads, that have helped clients increase brand awareness and drive sales."
         },
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Packaging",
+            description: "  I've created unique and visually appealing packaging designs that have helped products capture consumer attention and increase sales"
         },
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Infographics",
+            description: "I've designed complex data and information into clear and compelling infographics for both print and digital use, improving information retention and engagement."
         },
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Engaging Graphics",
+            description: "I create impactful graphics for social media, web, and ads, driving audience interaction and brand presence. This includes animated and interactive visuals, optimized for seamless online experiences."
         },
         {
-            title: "graphics",
-            description: "Curabitur sagittis lectus quis purus interdua vulputate justo hendrerit asellus ullamcorper sem vel tellus ultrices ac suscipit orci tincidunt enean ultrices gravida quam ac sagittis justo fermentum ut."
+            title: "Print",
+            description: "I design brochures, catalogs, and marketing materials, focusing on paper, finishing, and layout for high-quality, lasting impressions."
         },
     ]
 

@@ -25,28 +25,31 @@ const Home = () => {
     setImgesHover(image)
   }
   const serives = [
-    { name: "adaptive design solutions", creativeHediing: 'strategic planning', creativeArtical: 'Fusce accumsan tincidunt erat et convallis risus ullamcorper euoled vehicula massa a massa cursus bibendum leovel.' },
-    { name: "adaptive design solutions", creativeHediing: 'design blueprinting', creativeArtical: 'Fusce accumsan tincidunt erat et convallis risus ullamcorper euoled vehicula massa a massa cursus bibendum leovel.' },
-    { name: "adaptive design solutions", creativeHediing: 'creative development', creativeArtical: 'Fusce accumsan tincidunt erat et convallis risus ullamcorper euoled vehicula massa a massa cursus bibendum leovel.' },
-    { name: "adaptive design solutions", creativeHediing: 'project handover', creativeArtical: 'Fusce accumsan tincidunt erat et convallis risus ullamcorper euoled vehicula massa a massa cursus bibendum leovel.', },
+    { creativeHediing: 'Strategic Planning', creativeArtical: 'I align design with your business goals. I analyze your audience and competition. I develop visual strategies, ensuring consistent brand messaging. I measure results and adapt designs for optimal impact.' },
+    { creativeHediing: 'Design Blueprinting', creativeArtical: 'I translate strategic plans into actionable visual frameworks. This involves creating wireframes, style guides, and mockups to map out design elements and user flows, ensuring a clear and efficient design process.' },
+    { creativeHediing: 'Creative Development', creativeArtical: 'I transform concepts into compelling visuals. I explore diverse styles, experiment with innovative techniques, and refine ideas to deliver unique, impactful designs that capture attention and resonate with your audience.' },
+    { creativeHediing: 'Project Handover:', creativeArtical: 'I deliver comprehensive, organized files with clear documentation, ensuring seamless implementation. I provide style guides, asset packages, and any necessary training, empowering you to effectively utilize the design deliverables.', },
+    
 
   ];
 
+   
+
   const MainArr = [
     {
-      year: "2024", SerivesHedding: "digital infinity awards", titel: 'best animation', image: AwardsOne,
+      name: "Brand Identity:", year: "2024", SerivesHedding: "digital infinity awards", titel: 'best animation', image: AwardsOne,
     },
     {
-      year: "2023", SerivesHedding: "best website of the year", titel: 'interactive design', image: AwardTwo,
+      name: "Web Design", year: "2023", SerivesHedding: "best website of the year", titel: 'interactive design', image: AwardTwo,
     },
     {
-      year: "2022", SerivesHedding: "festival of digital culture", titel: 'photo contest', image: AwardThree,
+      name: "Print Design",  year: "2022", SerivesHedding: "festival of digital culture", titel: 'photo contest', image: AwardThree,
     },
     {
-      year: "2021", SerivesHedding: "crown digital agency site", titel: 'css design awards', image: Awardfour,
+      name: "Digital Graphics", year: "2021", SerivesHedding: "crown digital agency site", titel: 'css design awards', image: Awardfour,
     },
     {
-      year: "2020", SerivesHedding: "the journey of one project", titel: 'portfolio design', image: AwardFive,
+      name: "Image Editing and Manipulation", year: "2020", SerivesHedding: "the journey of one project", titel: 'portfolio design', image: AwardFive,
     },
   ]
 
@@ -58,7 +61,7 @@ const Home = () => {
       <Banner />
       <section className='container-fluid'>
         <div className='custom-bottom-border d-flex align-items-center gap-3  my-lg-5  my-md-4 my-sm-4'>
-          <h2 className='font-size-large'>who we are</h2>
+          <h2 className='font-size-large'>  who i am </h2>
           <h5 className='mt-5 d-md-block d-none'>/ discover our identity</h5>
         </div>
       </section>
@@ -79,12 +82,12 @@ const Home = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <h2 className='fw-bold mt-3'>
-                Elevate your online brand with our agency, specializing in creative branding, navigating the digital landscape seamlessly for sustained business success and enhanced online visibility.</h2>
+              Building powerful brands through creative design, seamlessly navigating the digital world to drive growth and visibility.</h2>
               <div className=' mt-100'>
                 <Link className='text-decoration-none'>
                   <ul className=' p-0'>
                     {
-                      serives.map((SerivesValue, index) => (
+                      MainArr.map((SerivesValue, index) => (
                         <div key={index} className='d-flex justify-content-between align-items-center custom-table-list'>
                           <li className='text-capitalize'>
                             {SerivesValue.name}

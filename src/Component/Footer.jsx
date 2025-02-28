@@ -11,7 +11,7 @@ const Footer = () => {
                     <section className='container-fluid'>
                         <div className="row m-0">
                             <div className="col-lg-5 col-sm-12 col-12 p-0">
-                                <img src={Logo} alt="" />
+                                <img  src={Logo} width={150} alt="" />
                                 <p className='my-2'>© 2024 Softwebmedia Inc.</p>
                                 <p className='py-lg-3 fw-bold'>lorem ipsum dolor sit amet consectetur aiscing elitum dolor id quamtis ac varius turpis dignisim usce ullacorper ligula vel odio fermentum nec bibendum</p>
                             </div>
