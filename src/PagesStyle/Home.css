@@ -101,7 +101,17 @@
     border: 1px solid black;
 }
 
-
+.rotate {
+    transform: rotate(90deg);
+    transition: .5s;
+  }
+  
+  .content-box {
+    padding: 10px; 
+    margin-left: 5px;
+    transition: all 0.3s ease;
+  }
+  
 
 
 
